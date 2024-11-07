@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guil H's Personal Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <h1>Guil H</h1>
+    <nav>
+        <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- About Section -->
+<section id="about">
+    <h2>About Me</h2>
+    <img src="images/photo.jpg" alt="Guil H's Photo" class="profile-photo">
+    <p>Hello! I'm Guil H, a passionate web developer with a love for creating dynamic, user-friendly websites. 
+       I enjoy creating, learning, and sharing knowledge to help others grow and achieve their goals. 
+       Thanks for visiting my personal homepage!</p>
+    <a href="path/to/your-resume.pdf" class="resume-link" target="_blank">View My Resume</a>
+</section>
+
+<!-- Skills Section -->
+<section id="skills">
+    <h2>My Skills</h2>
+    <div class="skill">
+        <h3>HTML</h3>
+        <p>Proficient in writing semantic and accessible HTML code for building web pages.</p>
+        <div class="progress-bar">
+            <div class="progress" style="width: 90%;" data-label="90%"></div>
+        </div>
+    </div>
+    <div class="skill">
+        <h3>CSS</h3>
+        <p>Skilled in styling web pages with CSS and creating responsive layouts.</p>
+        <div class="progress-bar">
+            <div class="progress" style="width: 85%;" data-label="85%"></div>
+        </div>
+    </div>
+    <div class="skill">
+        <h3>JavaScript</h3>
+        <p>Familiar with JavaScript and building interactive features for websites.</p>
+        <div class="progress-bar">
+            <div class="progress" style="width: 70%;" data-label="70%"></div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+    <h2>Projects</h2>
+    
+    <!-- Slideshow Container -->
+    <div class="slideshow-container">
+        
+        <!-- Slide 1 -->
+        <div class="slide">
+            <img src="images/project1.jpg" alt="Project 1">
+            <div class="overlay">
+                <h3>Project One</h3>
+                <p>A brief description of Project One. This is a showcase of the project features and functionality.</p>
+            </div>
+        </div>
+        
+        <!-- Slide 2 -->
+        <div class="slide">
+            <img src="images/project2.jpg" alt="Project 2">
+            <div class="overlay">
+                <h3>Project Two</h3>
+                <p>A brief description of Project Two. This project demonstrates a different skill set and creativity.</p>
+            </div>
+        </div>
+        
+        <!-- Slide 3 -->
+        <div class="slide">
+            <img src="images/project3.jpg" alt="Project 3">
+            <div class="overlay">
+                <h3>Project Three</h3>
+                <p>A brief description of Project Three. Highlighting another aspect of your expertise.</p>
+            </div>
+        </div>
+        
+        <!-- Dot Navigation -->
+        <div class="dot-navigation">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2024 Guil H</p>
+    <p>Connect with me:</p>
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/your-profile" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://twitter.com/your-profile" target="_blank" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/your-profile" target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
